@@ -1,0 +1,95 @@
+:root {
+  --primary: #1f3b4d;
+  --accent: #0c7db1;
+  --bg-light: #f7f9fb;
+  --text-dark: #1d1d1f;
+  --text-light: #4a4a4a;
+  --white: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+}
+
+.sidebar {
+  background: #222;
+  color: #f0f0f0;
+  width: 250px;
+  height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+nav li {
+  margin-bottom: 1rem;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #1abc9c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  padding: 1.2rem 2rem;
+  box-shadow: 0 2px 8px var(--card-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  font-size: 1.4rem;
+  color: var(--primary);
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: var(--accent);
+}
+
+footer {
+  margin-top: auto;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #aaa;
+}

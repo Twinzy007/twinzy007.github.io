@@ -1,0 +1,40 @@
+.layout {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .page {
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 1.5rem;
+  }
+}

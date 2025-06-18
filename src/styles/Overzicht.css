@@ -1,0 +1,50 @@
+.overzicht-page {
+  padding: 2rem;
+}
+
+.intro-text {
+  font-size: 1.05rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+.tijdlijn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 1.5rem;
+}
+
+.tijdlijn-item {
+  position: relative;
+  background-color: var(--white);
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--card-shadow);
+}
+
+.tijdlijn-item::before {
+  content: "";
+  position: absolute;
+  left: -1.85rem;
+  top: 1.2rem;
+  width: 12px;
+  height: 12px;
+  background-color: var(--accent);
+  border-radius: 50%;
+  border: 2px solid var(--white);
+}
+
+.maand {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.activiteit {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}

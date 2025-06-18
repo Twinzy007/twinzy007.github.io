@@ -1,0 +1,38 @@
+.roblox-basics-page {
+  padding: 2rem;
+}
+
+.intro-text {
+  font-size: 1.05rem;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+.basic-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.basic-card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--card-shadow);
+  transition: transform 0.3s ease;
+}
+
+.basic-card:hover {
+  transform: translateY(-5px);
+}
+
+.basic-card h3 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.basic-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
